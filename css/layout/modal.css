@@ -6,7 +6,6 @@
     height: 100%;
     z-index: 9999999;
     background-color: rgba(46, 47, 66, 0.40);
-    overflow-y: scroll;
 
     opacity: 0;
     visibility: hidden;
@@ -219,6 +218,12 @@
         width: 408px;
         min-height: 584px;
         padding: 72px 24px 24px 24px;
+    }
+}
+
+@media screen and (max-width: 1158px) {
+    .backdrop {
+        overflow-y: scroll;
     }
 }
 
