@@ -61,7 +61,7 @@
         padding: 72px 16px 40px 16px;
     }
 
-    .mobile-menu.is-open {
+    .is-open {
         opacity: 1;
         visibility: visible;
         pointer-events: auto;
